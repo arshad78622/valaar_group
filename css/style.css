@@ -249,6 +249,7 @@
 .export-section{
 
     padding:150px 8%;
+    padding-top: 40px;
 
     background:#FFF4E8;
 
@@ -884,6 +885,7 @@ font-size:38px;
 /* Remove default link styling */
 .export-link {
     text-decoration: none;
+
     color: inherit;
     display: block;
 }
@@ -1139,5 +1141,47 @@ html {
     .contact-right textarea {
         width: 100%;
         min-width: 0;
+    }
+}
+/* Give all homepage product cards the same height */
+.export-container {
+    grid-auto-rows: 1fr;
+}
+
+.export-container > .export-link {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.export-container .export-card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.export-container .export-card img {
+    flex-shrink: 0;
+}
+
+.export-container .card-footer {
+    margin-top: auto;
+}
+#services .grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+}
+
+#services .sourcing-card {
+    grid-column: 2;
+}
+
+@media (max-width: 768px) {
+    #services .grid {
+        grid-template-columns: 1fr;
+    }
+
+    #services .sourcing-card {
+        grid-column: 1;
     }
 }
