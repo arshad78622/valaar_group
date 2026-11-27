@@ -1,0 +1,8 @@
+ images/bed1-500kb.jpg                          | Bin [31m509952[m -> [32m0[m bytes
+ images/{bed1-200kb.jpg => bed1-mobile.jpg.jpg} | Bin
+ images/bed2-500kb.jpg                          | Bin [31m509952[m -> [32m0[m bytes
+ images/{bed2-200kb.jpg => bed2-mobile.jpg.jpg} | Bin
+ images/bed3-500kb.jpg                          | Bin [31m509952[m -> [32m0[m bytes
+ images/{bed3-200kb.jpg => bed3-mobile.jpg.jpg} | Bin
+ index.html                                     |  15 [32m++++++++++++[m[31m---[m
+ 7 files changed, 12 insertions(+), 3 deletions(-)
